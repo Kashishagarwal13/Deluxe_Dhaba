@@ -1,6 +1,3 @@
-/* Preloader.css */
-
-/* Preloader.css */
 
 .preloader {
     position: fixed;
@@ -58,9 +55,9 @@
     font-family: 'Roboto', sans-serif; /* Use a Google Font or any other preferred font */
     font-size: 24px; /* Adjust font size as needed */
     font-weight: bold; /* Make the text bold */
-    color: #333; /* Dark text color to contrast with the light background */
+    color : #333; /* Dark text color to contrast with the light background */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
-    text-transform: uppercase; /* Convert text to uppercase */
+    text-transform: uppercase;
     letter-spacing: 2px; /* Add spacing between letters for a stylish look */
     animation: glow 2s ease infinite alternate; /* Apply glowing animation */
   }
@@ -83,3 +80,37 @@
       box-shadow: 0 0 20px 0px #ff5733; /* Increase shadow size */
     }
   }
+
+  /*@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+  .bigdiv{
+    background-color: hsl(19, 24%, 85%);
+    overflow: hidden; 
+  }
+  .h1{
+    position:relative;
+    margin: 0 auto;
+    top: 90vh;
+    width: 100vw;
+    text-align: center;
+     font-family: 'Animatic SC'; 
+     font-size: 6vh;
+     Color : #333 ; 
+     opacity: .75;
+    animation: pulse 2.5s linear infinite;
+  }
+
+ .bubble{
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 0 0 0.25vh #4d4d4d;
+    opacity:0;
+  }
+
+   .bubble:nth-child(1){
+    margin-top: 2.5vh;
+    left: 58%;
+    width: 2.5vh;
+    height: 2.5vh;
+    background-color: #454545;
+    animation: bubble 2s cubic-bezier(0.53,0.16,0.39,0.96);
+  }*/

@@ -9,6 +9,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Preloader from './components/Preloader';
 
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -19,12 +20,14 @@ const App = () => {
     }, 2000); // Adjust the delay time as needed
   }, []);
 
+  
+
 
   return (
     <div className="app">
       {isLoading ? <Preloader /> : (  <Routes>
       <Route path="/" element={<Layout />}> {/* Wrap all routes with Layout */}
-        <Route index element={<Home />} />
+        <Route index element={<Home  />} />
         <Route path="about" element={<About />} />
         <Route path='menu' element={<Menu />} />
         <Route path='contactus' element={<Contact />} />
